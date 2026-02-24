@@ -6,6 +6,12 @@
     <title>Pranjal Jaiswal | MIS & Data Analytics Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your actual Public Key
+        })();
+    </script>
     <style>
         .glass {
             background: rgba(255, 255, 255, 0.05);
@@ -16,7 +22,7 @@
             background: linear-gradient(135deg, #1D6F42 0%, #217346 100%);
         }
         body { background-color: #0f172a; color: white; }
-        .scrollbar-hide::-webkit-scrollbar { display: none; }
+        html { scroll-behavior: smooth; }
     </style>
 </head>
 <body>
@@ -25,10 +31,11 @@
         <div class="text-xl font-bold tracking-tighter">PRANJAL<span class="text-green-500">.DATA</span></div>
         <div class="hidden md:flex space-x-8 text-sm font-medium">
             <a href="#home" class="hover:text-green-400 transition">Home</a>
+            <a href="#experience" class="hover:text-green-400 transition">Experience</a>
             <a href="#projects" class="hover:text-green-400 transition">Projects</a>
             <a href="#skills" class="hover:text-green-400 transition">Skills</a>
         </div>
-        <a href="mailto:pjaiswal0605@gmail.com" class="excel-gradient px-5 py-2 rounded-full text-sm font-bold shadow-lg">Contact Me </a>
+        <a href="mailto:pjaiswal0605@gmail.com" class="excel-gradient px-5 py-2 rounded-full text-sm font-bold shadow-lg">Contact Me</a>
     </nav>
 
     <section id="home" class="h-screen flex flex-col justify-center items-center text-center px-4">
@@ -36,60 +43,119 @@
             MIS EXECUTIVE • DATA ANALYST • YOUTUBE EDUCATOR
         </div>
         <h1 class="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight">
-            Turning Raw Data into <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">Actionable Strategy. [cite: 4]</span>
+            Turning Raw Data into <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">Actionable Strategy.</span>
         </h1>
         <p class="max-w-2xl text-gray-400 text-lg mb-8">
-            MIS Executive with 2+ years of experience transforming complex data into insights using SQL, Power BI, Python, and Advanced Excel. [cite: 4]
+            MIS Executive with 2+ years of experience transforming complex data into insights using SQL, Power BI, Python, and Advanced Excel.
         </p>
-        <div class="flex space-x-4">
-             <a href="#projects" class="bg-white text-black px-6 py-3 rounded-full font-bold hover:bg-gray-200 transition">View Projects</a>
-             <a href="https://github.com/Pranjal098" target="_blank" class="glass px-6 py-3 rounded-full font-bold hover:bg-white/10 transition">GitHub</a>
+        <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+             <a href="#experience" class="bg-white text-black px-8 py-3 rounded-full font-bold hover:bg-gray-200 transition">View Experience</a>
+             <a id="download-btn" href="Pranjal_Resume.pdf" download="Pranjal_Resume.pdf" class="excel-gradient text-white px-8 py-3 rounded-full font-bold shadow-lg hover:opacity-90 transition flex items-center justify-center">
+                <i class="fas fa-file-download mr-2"></i> Download Resume
+             </a>
+             <a href="https://github.com/Pranjal098" target="_blank" class="glass px-8 py-3 rounded-full font-bold hover:bg-white/10 transition flex items-center justify-center">
+                <i class="fab fa-github mr-2"></i> GitHub
+             </a>
+        </div>
+    </section>
+
+    <section id="experience" class="py-20 bg-slate-900/30">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-12 flex items-center">
+                <span class="w-12 h-1 bg-green-500 mr-4"></span> Professional Experience
+            </h2>
+
+            <div class="space-y-12">
+                <div class="glass p-8 rounded-2xl border border-white/5">
+                    <div class="flex flex-col md:flex-row justify-between mb-6">
+                        <div>
+                            <h3 class="text-2xl font-bold text-white">MIS Executive</h3>
+                            <p class="text-green-400 font-medium">QDIGI Services | Data Analytics & BI</p>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-gray-400">March 2025 – Dec 2025</p>
+                            <p class="text-xs text-gray-500">Noida, Uttar Pradesh</p>
+                        </div>
+                    </div>
+                    <ul class="space-y-3 text-gray-300 text-sm list-disc pl-5">
+                        <li>Constructed 10+ interactive Power BI dashboards tracking operational KPIs and SLA metrics for 50+ stakeholders.</li>
+                        <li>Automated ETL workflows using SQL and VBA, reducing manual reporting effort by 30% and improving accuracy to 99%.</li>
+                        <li>Identified operational bottlenecks using regression analysis on 100K+ records, improving SLA compliance by 12%.</li>
+                        <li>Engineered real-time SLA alerting system via Power Automate, reducing incident response time by 40%.</li>
+                    </ul>
+                </div>
+
+                <div class="glass p-8 rounded-2xl border border-white/5">
+                    <div class="flex flex-col md:flex-row justify-between mb-6">
+                        <div>
+                            <h3 class="text-2xl font-bold text-white">Documentation Executive</h3>
+                            <p class="text-blue-400 font-medium">UNIVO Education | Data Analytics Focus</p>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-gray-400">August 2023 – November 2024</p>
+                            <p class="text-xs text-gray-500">Noida, Uttar Pradesh</p>
+                        </div>
+                    </div>
+                    <ul class="space-y-3 text-gray-300 text-sm list-disc pl-5">
+                        <li>Analyzed 18,000+ applicant records, increasing conversion rates from 18% to 28% through cohort analysis.</li>
+                        <li>Developed 5+ Power BI dashboards tracking 40% YoY growth to inform recruitment strategies.</li>
+                        <li>Contributed to 15% application growth by presenting predictive analytics to C-level leadership.</li>
+                        <li>Deployed automated weekly reporting via VBA, saving 10+ hours per week in manual compilation.</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="projects" class="py-20 bg-slate-900/50">
         <div class="max-w-7xl mx-auto px-6">
             <h2 class="text-3xl font-bold mb-12 flex items-center">
-                <span class="w-12 h-1 bg-green-500 mr-4"></span> Featured Work
+                <span class="w-12 h-1 bg-green-500 mr-4"></span> Live Analytics Dashboard
             </h2>
             
-            <div class="flex overflow-x-auto space-x-6 pb-10 scrollbar-hide">
+            <div class="w-full glass rounded-3xl border border-green-500/30 overflow-hidden shadow-2xl">
+                <div class="p-6 border-b border-white/10 flex justify-between items-center bg-white/5">
+                    <div>
+                        <h3 class="text-2xl font-bold">Agent Task Tracker</h3>
+                        <p class="text-gray-400 text-sm italic">Tracking 15+ KPIs for 50+ agents in real-time </p>
+                    </div>
+                    <span class="hidden md:block bg-green-500/20 text-green-400 text-xs px-3 py-1 rounded-full border border-green-500/30">
+                        Interactive Web Instance
+                    </span>
+                </div>
                 
-                <div class="min-w-[350px] glass p-8 rounded-2xl border border-white/5 transition flex flex-col justify-between">
+                <div class="relative w-full bg-black/20" style="height: 80vh; min-height: 750px;">
+                    <iframe 
+                        width="100%" 
+                        height="100%" 
+                        frameborder="0" 
+                        scrolling="no" 
+                        src="https://1drv.ms/x/c/ee5137b733c9ba7f/IQQK62nse4U6Sr7Ya3rHcwAVAd6kR_Axd-MWKZuiQbeIV4c?em=2&ActiveCell='Dashboard'!C3&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True">
+                    </iframe>
+                </div>
+                <div class="p-4 bg-white/5 text-center">
+                    <p class="text-xs text-gray-500 italic">Built with Power Query & VBA macros to transform 10K+ daily raw call logs.</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+                <div class="glass p-8 rounded-2xl border border-white/5 flex flex-col justify-between transition hover:border-green-500/50">
                     <div>
                         <div class="text-xs text-green-400 font-mono mb-2 uppercase">Python • MySQL • Pandas</div>
-                        <h3 class="text-2xl font-bold mb-4">E-Commerce EDA [cite: 32]</h3>
-                        <p class="text-gray-400 mb-6 italic">Analyzed 100K+ transaction records to identify revenue optimization opportunities. [cite: 33]</p>
+                        <h3 class="text-xl font-bold mb-4">E-Commerce EDA</h3>
+                        <p class="text-gray-400 text-sm mb-6">Analyzed 100K+ transaction records to identify revenue optimization via RFM analysis.</p>
                     </div>
-                    <a href="https://github.com/Pranjal098/Pranjal_Portfolio" target="_blank" class="text-green-400 text-sm font-bold hover:underline italic">View Repository →</a>
+                    <a href="https://github.com/Pranjal098/Pranjal_Portfolio" target="_blank" class="text-green-400 text-sm font-bold hover:underline">View Source Code →</a>
                 </div>
 
-                <div class="min-w-[350px] md:min-w-[700px] glass p-6 rounded-2xl border border-green-500/30 transition shadow-2xl">
-                    <div class="flex justify-between items-start mb-4">
-                        <div>
-                            <div class="text-xs text-green-400 font-mono mb-1 uppercase font-bold">Live Dashboard • Advanced Excel</div>
-                            <h3 class="text-2xl font-bold">Agent Task Tracker [cite: 37]</h3>
-                        </div>
-                        <span class="bg-green-500/20 text-green-400 text-[10px] px-2 py-1 rounded border border-green-500/30 uppercase">Interactive</span>
-                    </div>
-                    
-                    <div class="relative w-full overflow-hidden rounded-xl border border-white/10 bg-black/20 mb-4 h-[300px] md:h-[450px]">
-                        <iframe width="100%" height="100%" frameborder="0" scrolling="no" src="https://1drv.ms/x/c/ee5137b733c9ba7f/IQQK62nse4U6Sr7Ya3rHcwAVAd6kR_Axd-MWKZuiQbeIV4c?em=2&ActiveCell='Dashboard'!C3&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
-                    </div>
-                    <p class="text-gray-400 text-sm italic">
-                        Automated data refresh pipeline using Power Query and VBA macros to track KPIs for 50+ agents. [cite: 37, 39]
-                    </p>
-                </div>
-
-                <div class="min-w-[350px] glass p-8 rounded-2xl border border-white/5 transition flex flex-col justify-between">
+                <div class="glass p-8 rounded-2xl border border-white/5 flex flex-col justify-between transition hover:border-blue-500/50">
                     <div>
-                        <div class="text-xs text-blue-400 font-mono mb-2 uppercase">Power BI • DAX</div>
-                        <h3 class="text-2xl font-bold mb-4">Admission Analytics [cite: 26]</h3>
-                        <p class="text-gray-400 mb-6 italic">Visualizing funnels for 18,000+ applicants and tracking 40% YoY growth. [cite: 25, 26]</p>
+                        <div class="text-xs text-blue-400 font-mono mb-2 uppercase">Academic Background</div>
+                        <h3 class="text-xl font-bold mb-4">B.Tech Mechanical Engineering</h3>
+                        <p class="text-gray-400 text-sm mb-6">Rajiv Gandhi Proudyogiki Vishwavidyalaya |CGPA: 7.72/10.</p>
                     </div>
-                    <a href="https://github.com/Pranjal098/Pranjal_Portfolio" target="_blank" class="text-blue-400 text-sm font-bold hover:underline italic">View Portfolio →</a>
+                    <span class="text-blue-400 text-sm font-bold">2017 – 2021</span>
                 </div>
-
             </div>
         </div>
     </section>
@@ -103,25 +169,41 @@
                 <div class="glass p-6 rounded-xl border-l-4 border-green-500">
                     <i class="fas fa-database text-green-400 mb-4 text-2xl"></i>
                     <h4 class="font-bold mb-2 uppercase text-xs tracking-widest text-gray-400">SQL & Databases</h4>
-                    <p class="text-sm">Window functions, CTEs, subqueries, and MySQL/PostgreSQL. [cite: 9]</p>
+                    <p class="text-sm">Advanced window functions, CTEs, subqueries, and MySQL/PostgreSQL[cite: 9].</p>
                 </div>
                 <div class="glass p-6 rounded-xl border-l-4 border-blue-500">
                     <i class="fas fa-chart-pie text-blue-400 mb-4 text-2xl"></i>
                     <h4 class="font-bold mb-2 uppercase text-xs tracking-widest text-gray-400">Analytics & Viz</h4>
-                    <p class="text-sm">Power BI (DAX, Power Query) and Advanced Excel (VBA, Macros). [cite: 10]</p>
+                    <p class="text-sm">Power BI (DAX, Power Query) and Advanced Excel (VBA, Macros).</p>
                 </div>
                 <div class="glass p-6 rounded-xl border-l-4 border-yellow-500">
                     <i class="fab fa-python text-yellow-400 mb-4 text-2xl"></i>
                     <h4 class="font-bold mb-2 uppercase text-xs tracking-widest text-gray-400">Programming</h4>
-                    <p class="text-sm">Python (Pandas, NumPy, Matplotlib) and Statistical Analysis. [cite: 9, 10]</p>
+                    <p class="text-sm">Python (Pandas, NumPy, Matplotlib) and Statistical Modeling.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="py-10 text-center text-gray-600 text-xs uppercase tracking-widest">
-        &copy; 2026 PRANJAL JAISWAL • MIS EXECUTIVE & DATA ANALYST [cite: 1, 4]
+    <footer class="py-10 text-center text-gray-600 text-xs uppercase tracking-widest border-t border-white/5">
+        &copy; 2026 PRANJAL JAISWAL • MIS EXECUTIVE & DATA ANALYST
     </footer>
 
+    <script>
+        document.getElementById('download-btn').addEventListener('click', function() {
+            // Data to send to your EmailJS template
+            var templateParams = {
+                to_name: 'Pranjal',
+                message: 'A recruiter just clicked the resume download link on your portfolio!'
+            };
+
+            emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)
+                .then(function(response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                }, function(error) {
+                    console.log('FAILED...', error);
+                });
+        });
+    </script>
 </body>
 </html>
