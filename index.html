@@ -1,127 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pranjal Jaiswal | MIS & Data Analytics Portfolio</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        .glass {
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        .excel-gradient {
-            background: linear-gradient(135deg, #1D6F42 0%, #217346 100%);
-        }
-        body { background-color: #0f172a; color: white; scroll-behavior: smooth; }
-    </style>
-</head>
-<body>
+<div class="min-w-[350px] md:min-w-[600px] glass p-6 rounded-2xl border border-green-600/30 transition group">
+    <div class="text-xs text-green-600 font-mono mb-2 uppercase font-bold">Live Project • Advanced Excel</div>
+    <h3 class="text-2xl font-bold mb-4">Agent Task Tracker</h3>
+    
+    <div class="relative w-full overflow-hidden rounded-xl border border-white/10 mb-6" style="height: 400px;">
+        <iframe 
+            width="100%" 
+            height="100%" 
+            frameborder="0" 
+            scrolling="no" 
+            src="https://1drv.ms/x/c/ee5137b733c9ba7f/IQQK62nse4U6Sr7Ya3rHcwAVAd6kR_Axd-MWKZuiQbeIV4c?em=2&ActiveCell='Dashboard'!C3&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True">
+        </iframe>
+    </div>
 
-    <nav class="fixed w-full z-50 glass px-6 py-4 flex justify-between items-center">
-        <div class="text-xl font-bold tracking-tighter">PRANJAL<span class="text-green-500">.DATA</span></div>
-        <div class="hidden md:flex space-x-8 text-sm font-medium">
-            <a href="#home" class="hover:text-green-400 transition">Home</a>
-            <a href="#projects" class="hover:text-green-400 transition">Projects</a>
-            <a href="#skills" class="hover:text-green-400 transition">Skills</a>
-            <a href="#youtube" class="hover:text-green-400 transition">YouTube</a>
+    <div class="grid grid-cols-2 gap-4 mb-6 text-sm">
+        <div class="bg-white/5 p-3 rounded-lg">
+            <span class="block text-green-500 font-bold uppercase text-[10px]">Key Feature</span>
+            Real-time Monitoring
         </div>
-        <a href="mailto:your-email@example.com" class="excel-gradient px-5 py-2 rounded-full text-sm font-bold shadow-lg">Hire Me</a>
-    </nav>
-
-    <section id="home" class="h-screen flex flex-col justify-center items-center text-center px-4">
-        <div class="inline-block px-3 py-1 mb-4 border border-green-500/30 rounded-full text-xs text-green-400 font-mono">
-            MIS EXECUTIVE • DATA ANALYST • EDUCATOR
+        <div class="bg-white/5 p-3 rounded-lg">
+            <span class="block text-green-500 font-bold uppercase text-[10px]">Tech Used</span>
+            Power Query & VBA
         </div>
-        <h1 class="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight">
-            Turning Raw Data into <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">Actionable Strategy.</span>
-        </h1>
-        <p class="max-w-2xl text-gray-400 text-lg mb-8">
-            Expert in MIS operations and data visualization. Transitioning complex workflows into automated, high-impact dashboards.
-        </p>
-        <div class="flex space-x-4">
-            <a href="#projects" class="bg-white text-black px-8 py-3 rounded-lg font-bold hover:bg-gray-200 transition">View Projects</a>
-            <a href="#youtube" class="glass px-8 py-3 rounded-lg font-bold hover:bg-white/10 transition">Watch Tutorials</a>
-        </div>
-    </section>
-
-    <section id="projects" class="py-20 bg-slate-900/50">
-        <div class="max-w-6xl mx-auto px-6">
-            <h2 class="text-3xl font-bold mb-12 flex items-center">
-                <span class="w-12 h-1 bg-green-500 mr-4"></span> Featured Work
-            </h2>
-            
-            <div class="flex overflow-x-auto space-x-6 pb-10 scrollbar-hide">
-                <div class="min-w-[350px] md:min-w-[450px] glass p-8 rounded-2xl hover:border-green-500/50 transition group">
-                    <div class="text-xs text-green-400 font-mono mb-2 uppercase">Python • EDA</div>
-                    <h3 class="text-2xl font-bold mb-4">E-Commerce Data Analysis</h3>
-                    <p class="text-gray-400 mb-6">Exploratory Data Analysis on customer behavior and sales trends using Pandas and Matplotlib.</p>
-                    <div class="flex items-center text-sm font-bold text-white group-hover:translate-x-2 transition">
-                        View Project <i class="fas fa-arrow-right ml-2 text-green-500"></i>
-                    </div>
-                </div>
-
-                <div class="min-w-[350px] md:min-w-[450px] glass p-8 rounded-2xl hover:border-blue-500/50 transition group">
-                    <div class="text-xs text-blue-400 font-mono mb-2 uppercase">Power BI • Dashboard</div>
-                    <h3 class="text-2xl font-bold mb-4">Online Course Performance</h3>
-                    <p class="text-gray-400 mb-6">Interactive Power BI dashboard tracking student enrollment, revenue, and churn rates.</p>
-                    <div class="flex items-center text-sm font-bold text-white group-hover:translate-x-2 transition">
-                        View Dashboard <i class="fas fa-arrow-right ml-2 text-blue-500"></i>
-                    </div>
-                </div>
-
-                <div class="min-w-[350px] md:min-w-[450px] glass p-8 rounded-2xl hover:border-green-600/50 transition group">
-                    <div class="text-xs text-green-600 font-mono mb-2 uppercase">Advanced Excel • Automation</div>
-                    <h3 class="text-2xl font-bold mb-4">Agent Task Tracker</h3>
-                    <p class="text-gray-400 mb-6">VBA & Power Query powered automation tool for real-time MIS task monitoring.</p>
-                    <div class="flex items-center text-sm font-bold text-white group-hover:translate-x-2 transition">
-                        View Tool <i class="fas fa-arrow-right ml-2 text-green-600"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="skills" class="py-20 px-6 max-w-6xl mx-auto">
-        <div class="grid md:grid-cols-2 gap-16">
-            <div>
-                <h2 class="text-3xl font-bold mb-8">Technical Mastery</h2>
-                <div class="grid grid-cols-2 gap-4">
-                    <div class="glass p-4 rounded-xl text-center">
-                        <i class="fas fa-file-excel text-3xl text-green-500 mb-2"></i>
-                        <p class="font-bold">Advanced Excel</p>
-                    </div>
-                    <div class="glass p-4 rounded-xl text-center">
-                        <i class="fas fa-database text-3xl text-blue-400 mb-2"></i>
-                        <p class="font-bold">SQL (Inter.)</p>
-                    </div>
-                    <div class="glass p-4 rounded-xl text-center">
-                        <i class="fas fa-chart-pie text-3xl text-yellow-500 mb-2"></i>
-                        <p class="font-bold">Power BI</p>
-                    </div>
-                    <div class="glass p-4 rounded-xl text-center">
-                        <i class="fab fa-python text-3xl text-blue-500 mb-2"></i>
-                        <p class="font-bold">Python</p>
-                    </div>
-                </div>
-            </div>
-
-            <div id="youtube">
-                <h2 class="text-3xl font-bold mb-8">Learning Hub</h2>
-                <div class="aspect-video glass rounded-2xl flex flex-col justify-center items-center text-center border-dashed border-2 border-white/20">
-                    <i class="fab fa-youtube text-5xl text-red-600 mb-4 animate-pulse"></i>
-                    <h3 class="font-bold">Coming Soon: Excel Training</h3>
-                    <p class="text-sm text-gray-500 mt-2 px-10">I'm building a YouTube channel to teach data management and automation shortcuts.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="py-10 border-t border-white/10 text-center text-gray-500 text-sm">
-        <p>&copy; 2026 Pranjal Jaiswal. Built with Data & Precision.</p>
-    </footer>
-
-</body>
-</html>
+    </div>
+    
+    <p class="text-gray-400 text-sm mb-4">
+        This live dashboard tracks agent productivity. Feel free to interact with the tabs above to see the underlying data structure.
+    </p>
+</div>
