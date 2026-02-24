@@ -9,7 +9,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
         (function() {
-            emailjs.init("Xw8-eXF55EmrJCoev"); // Replace with your actual Public Key
+            emailjs.init("Xw8-eXF55EmrJCoev"); // Your Public Key
         })();
     </script>
     <style>
@@ -20,6 +20,10 @@
         }
         .excel-gradient {
             background: linear-gradient(135deg, #1D6F42 0%, #217346 100%);
+        }
+        /* LinkedIn Official Brand Color */
+        .linkedin-blue {
+            background-color: #0077b5;
         }
         body { background-color: #0f172a; color: white; }
         html { scroll-behavior: smooth; }
@@ -50,8 +54,11 @@
         </p>
         <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
              <a href="#experience" class="bg-white text-black px-8 py-3 rounded-full font-bold hover:bg-gray-200 transition">View Experience</a>
-             <a id="download-btn" href="Pranjal_Resume.pdf" download="Pranjal_Resume.pdf" class="excel-gradient text-white px-8 py-3 rounded-full font-bold shadow-lg hover:opacity-90 transition flex items-center justify-center">
+             <a id="download-btn" href="Pranjal_Resume.pdf" download="Pranjal_Jaiswal_Resume.pdf" class="excel-gradient text-white px-8 py-3 rounded-full font-bold shadow-lg hover:opacity-90 transition flex items-center justify-center">
                 <i class="fas fa-file-download mr-2"></i> Download Resume
+             </a>
+             <a href="https://linkedin.com/in/pranjal-jaiswal-" target="_blank" class="linkedin-blue text-white px-8 py-3 rounded-full font-bold shadow-lg hover:opacity-90 transition flex items-center">
+                <i class="fab fa-linkedin mr-2"></i> LinkedIn
              </a>
              <a href="https://github.com/Pranjal098" target="_blank" class="glass px-8 py-3 rounded-full font-bold hover:bg-white/10 transition flex items-center justify-center">
                 <i class="fab fa-github mr-2"></i> GitHub
@@ -152,7 +159,7 @@
                     <div>
                         <div class="text-xs text-blue-400 font-mono mb-2 uppercase">Academic Background</div>
                         <h3 class="text-xl font-bold mb-4">B.Tech Mechanical Engineering</h3>
-                        <p class="text-gray-400 text-sm mb-6">Rajiv Gandhi Proudyogiki Vishwavidyalaya |CGPA: 7.72/10.</p>
+                        <p class="text-gray-400 text-sm mb-6">Rajiv Gandhi Proudyogiki Vishwavidyalaya | CGPA: 7.72/10.</p>
                     </div>
                     <span class="text-blue-400 text-sm font-bold">2017 – 2021</span>
                 </div>
@@ -169,7 +176,7 @@
                 <div class="glass p-6 rounded-xl border-l-4 border-green-500">
                     <i class="fas fa-database text-green-400 mb-4 text-2xl"></i>
                     <h4 class="font-bold mb-2 uppercase text-xs tracking-widest text-gray-400">SQL & Databases</h4>
-                    <p class="text-sm">Advanced window functions, CTEs, subqueries, and MySQL/PostgreSQL[cite: 9].</p>
+                    <p class="text-sm">Advanced window functions, CTEs, subqueries, and MySQL.</p>
                 </div>
                 <div class="glass p-6 rounded-xl border-l-4 border-blue-500">
                     <i class="fas fa-chart-pie text-blue-400 mb-4 text-2xl"></i>
@@ -191,7 +198,6 @@
 
     <script>
         document.getElementById('download-btn').addEventListener('click', function() {
-            // Data to send to your EmailJS template
             var templateParams = {
                 to_name: 'Pranjal',
                 message: 'A recruiter just clicked the resume download link on your portfolio!'
