@@ -1,215 +1,1016 @@
-<!DOCTYPE html>
-<html lang="en" class="scroll-smooth scroll-pt-20">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pranjal Jaiswal | MIS & Data Analytics Portfolio</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function() {
-            emailjs.init("Xw8-eXF55EmrJCoev"); // Your Public Key
-        })();
-    </script>
-    <style>
-        .glass {
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        .excel-gradient {
-            background: linear-gradient(135deg, #1D6F42 0%, #217346 100%);
-        }
-        /* LinkedIn Official Brand Color */
-        .linkedin-blue {
-            background-color: #0077b5;
-        }
-        body { background-color: #0f172a; color: white; }
-        html { scroll-behavior: smooth; }
-    </style>
-</head>
-<body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pranjal Jaiswal | MIS Executive & Data Analyst Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Pranjal Jaiswal - MIS Executive & Data Analyst with 2+ years of experience transforming complex data into actionable strategies using SQL, Power BI, Python, and Excel."
+    />
 
-    <nav class="fixed w-full z-50 glass px-6 py-4 flex justify-between items-center">
-        <div class="text-xl font-bold tracking-tighter">PRANJAL<span class="text-green-500">.DATA</span></div>
-        <div class="hidden md:flex space-x-8 text-sm font-medium">
-            <a href="#home" class="hover:text-green-400 transition">Home</a>
-            <a href="#experience" class="hover:text-green-400 transition">Experience</a>
-            <a href="#projects" class="hover:text-green-400 transition">Projects</a>
-            <a href="#skills" class="hover:text-green-400 transition">Skills</a>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FontAwesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- #MAIN CONTAINER -->
+    <main>
+      <!-- #SIDEBAR (vCard) -->
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="assets/images/avatar.png"
+              alt="Pranjal Jaiswal"
+              width="120"
+              id="user-avatar"
+            />
+            <span class="status-badge" title="Available for Data Projects"
+              ><i class="fa-solid fa-circle"></i> Available</span
+            >
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Pranjal Jaiswal">Pranjal Jaiswal</h1>
+            <p class="title">MIS Executive & Data Analyst</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
         </div>
-        <a href="mailto:pjaiswal0605@gmail.com" class="excel-gradient px-5 py-2 rounded-full text-sm font-bold shadow-lg">Contact Me</a>
-    </nav>
 
-    <section id="home" class="h-screen flex flex-col justify-center items-center text-center px-4">
-        <div class="inline-block px-3 py-1 mb-4 border border-green-500/30 rounded-full text-xs text-green-400 font-mono">
-            MIS EXECUTIVE • DATA ANALYST • YOUTUBE EDUCATOR
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <i class="fa-regular fa-envelope"></i>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+                <a href="mailto:pjaiswal0605@gmail.com" class="contact-link"
+                  >pjaiswal0605@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+                <address>Noida, Uttar Pradesh, India</address>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Education</p>
+                <p class="contact-text">B.Tech Mechanical (RGPV)</p>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <i class="fa-solid fa-chart-line"></i>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Core Expertise</p>
+                <p class="contact-text">SQL, Power BI, Python, VBA</p>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://github.com/Pranjal098"
+                target="_blank"
+                class="social-link"
+                title="GitHub"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://linkedin.com/in/pranjal-jaiswal-"
+                target="_blank"
+                class="social-link"
+                title="LinkedIn"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://youtube.com/@PranjalData"
+                target="_blank"
+                class="social-link"
+                title="YouTube Channel"
+              >
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href="mailto:pjaiswal0605@gmail.com"
+                class="social-link"
+                title="Send Email"
+              >
+                <i class="fa-solid fa-paper-plane"></i>
+              </a>
+            </li>
+          </ul>
         </div>
-        <h1 class="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight">
-            Turning Raw Data into <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">Actionable Strategy.</span>
-        </h1>
-        <p class="max-w-2xl text-gray-400 text-lg mb-8">
-            MIS Executive with 2+ years of experience transforming complex data into insights using SQL, Power BI, Python, and Advanced Excel.
-        </p>
-        <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
-             <a href="#experience" class="bg-white text-black px-8 py-3 rounded-full font-bold hover:bg-gray-200 transition">View Experience</a>
-             <a id="download-btn" href="Pranjal_Resume.pdf" download="Pranjal_Jaiswal_Resume.pdf" class="excel-gradient text-white px-8 py-3 rounded-full font-bold shadow-lg hover:opacity-90 transition flex items-center justify-center">
-                <i class="fas fa-file-download mr-2"></i> Download Resume
-             </a>
-             <a href="https://linkedin.com/in/pranjal-jaiswal-" target="_blank" class="linkedin-blue text-white px-8 py-3 rounded-full font-bold shadow-lg hover:opacity-90 transition flex items-center">
-                <i class="fab fa-linkedin mr-2"></i> LinkedIn
-             </a>
-             <a href="https://github.com/Pranjal098" target="_blank" class="glass px-8 py-3 rounded-full font-bold hover:bg-white/10 transition flex items-center justify-center">
-                <i class="fab fa-github mr-2"></i> GitHub
-             </a>
-        </div>
-    </section>
+      </aside>
 
-    <section id="experience" class="py-20 bg-slate-900/30">
-        <div class="max-w-7xl mx-auto px-6">
-            <h2 class="text-3xl font-bold mb-12 flex items-center">
-                <span class="w-12 h-1 bg-green-500 mr-4"></span> Professional Experience
-            </h2>
+      <!-- #MAIN CONTENT -->
+      <div class="main-content">
+        <!-- #NAVBAR -->
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link="about">
+                About
+              </button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link="resume">Resume</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link="portfolio">
+                Portfolio
+              </button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link="insights">
+                Insights
+              </button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link="contact">
+                Contact
+              </button>
+            </li>
+          </ul>
+        </nav>
 
-            <div class="space-y-12">
-                <div class="glass p-8 rounded-2xl border border-white/5">
-                    <div class="flex flex-col md:flex-row justify-between mb-6">
-                        <div>
-                            <h3 class="text-2xl font-bold text-white">MIS Executive</h3>
-                            <p class="text-green-400 font-medium">QDIGI Services | Data Analytics & BI</p>
-                        </div>
-                        <div class="text-right">
-                            <p class="text-gray-400">March 2025 – Dec 2025</p>
-                            <p class="text-xs text-gray-500">Noida, Uttar Pradesh</p>
-                        </div>
-                    </div>
-                    <ul class="space-y-3 text-gray-300 text-sm list-disc pl-5">
-                        <li>Constructed 10+ interactive Power BI dashboards tracking operational KPIs and SLA metrics for 50+ stakeholders.</li>
-                        <li>Automated ETL workflows using SQL and VBA, reducing manual reporting effort by 30% and improving accuracy to 99%.</li>
-                        <li>Identified operational bottlenecks using regression analysis on 100K+ records, improving SLA compliance by 12%.</li>
-                        <li>Engineered real-time SLA alerting system via Power Automate, reducing incident response time by 40%.</li>
-                    </ul>
-                </div>
+        <!-- #ABOUT SECTION -->
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About Me</h2>
+          </header>
 
-                <div class="glass p-8 rounded-2xl border border-white/5">
-                    <div class="flex flex-col md:flex-row justify-between mb-6">
-                        <div>
-                            <h3 class="text-2xl font-bold text-white">Documentation Executive</h3>
-                            <p class="text-blue-400 font-medium">UNIVO Education | Data Analytics Focus</p>
-                        </div>
-                        <div class="text-right">
-                            <p class="text-gray-400">August 2023 – November 2024</p>
-                            <p class="text-xs text-gray-500">Noida, Uttar Pradesh</p>
-                        </div>
-                    </div>
-                    <ul class="space-y-3 text-gray-300 text-sm list-disc pl-5">
-                        <li>Analyzed 18,000+ applicant records, increasing conversion rates from 18% to 28% through cohort analysis.</li>
-                        <li>Developed 5+ Power BI dashboards tracking 40% YoY growth to inform recruitment strategies.</li>
-                        <li>Contributed to 15% application growth by presenting predictive analytics to C-level leadership.</li>
-                        <li>Deployed automated weekly reporting via VBA, saving 10+ hours per week in manual compilation.</li>
-                    </ul>
-                </div>
+          <section class="about-text">
+            <p class="highlight-lead">
+              Turning Raw Data into Actionable Strategy.
+            </p>
+            <p>
+              I am an <strong>MIS Executive & Data Analyst</strong> with 2+
+              years of experience transforming complex, multi-source datasets
+              into high-impact operational insights. My expertise spans
+              <strong
+                >SQL, Power BI (DAX, Power Query), Python (Pandas/NumPy), and
+                Advanced Excel with VBA</strong
+              >.
+            </p>
+            <p>
+              Whether automating repetitive ETL workflows to save hundreds of
+              manual hours, building real-time SLA monitoring dashboards for
+              C-level leadership, or performing predictive cohort analysis to
+              boost conversion rates, I focus on driving tangible business
+              metrics.
+            </p>
+          </section>
+
+          <!-- Stats Counter Section -->
+          <section class="stats-overview">
+            <div class="stat-card">
+              <div class="stat-icon"><i class="fa-solid fa-briefcase"></i></div>
+              <div class="stat-data">
+                <span class="stat-number">2+</span>
+                <span class="stat-label">Years Exp.</span>
+              </div>
             </div>
-        </div>
-    </section>
+            <div class="stat-card">
+              <div class="stat-icon"><i class="fa-solid fa-chart-pie"></i></div>
+              <div class="stat-data">
+                <span class="stat-number">15+</span>
+                <span class="stat-label">Power BI Dashboards</span>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon"><i class="fa-solid fa-database"></i></div>
+              <div class="stat-data">
+                <span class="stat-number">100K+</span>
+                <span class="stat-label">Records Analyzed</span>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon"><i class="fa-solid fa-bolt"></i></div>
+              <div class="stat-data">
+                <span class="stat-number">30%</span>
+                <span class="stat-label">ETL Time Saved</span>
+              </div>
+            </div>
+          </section>
 
-    <section id="projects" class="py-20 bg-slate-900/50">
-        <div class="max-w-7xl mx-auto px-6">
-            <h2 class="text-3xl font-bold mb-12 flex items-center">
-                <span class="w-12 h-1 bg-green-500 mr-4"></span> Live Analytics Dashboard
-            </h2>
-            
-            <div class="w-full glass rounded-3xl border border-green-500/30 overflow-hidden shadow-2xl">
-                <div class="p-6 border-b border-white/10 flex justify-between items-center bg-white/5">
-                    <div>
-                        <h3 class="text-2xl font-bold">Agent Task Tracker</h3>
-                        <p class="text-gray-400 text-sm italic">Tracking 15+ KPIs for 50+ agents in real-time </p>
+          <!-- Service / Expertise -->
+          <section class="service">
+            <h3 class="h3 service-title">What I Do</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <i class="fa-solid fa-chart-column"></i>
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Data Analytics & Power BI
+                  </h4>
+                  <p class="service-item-text">
+                    Design interactive executive dashboards with DAX & Power
+                    Query, tracking operational KPIs, SLA compliance, and
+                    business growth.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <i class="fa-solid fa-gears"></i>
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    ETL & Automated Pipelines
+                  </h4>
+                  <p class="service-item-text">
+                    Automate manual compilation using SQL queries, VBA macros,
+                    and Power Automate—reducing reporting effort by 30% and
+                    improving accuracy to 99%.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <i class="fa-solid fa-magnifying-glass-chart"></i>
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Predictive & Cohort Analysis
+                  </h4>
+                  <p class="service-item-text">
+                    Analyze user records and sales channels, increasing
+                    applicant conversion rates from 18% to 28% through
+                    data-driven funnel optimization.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <i class="fa-solid fa-bell"></i>
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Real-Time Alerting Systems
+                  </h4>
+                  <p class="service-item-text">
+                    Engineer automated alerting triggers via Power Automate,
+                    reducing operational SLA incident response times by 40%.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!-- Key Impact Highlights -->
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Impact Highlights</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <div class="testimonials-avatar-box">
+                    <div class="testimonial-icon-circle">
+                      <i class="fa-solid fa-trophy"></i>
                     </div>
-                    <span class="hidden md:block bg-green-500/20 text-green-400 text-xs px-3 py-1 rounded-full border border-green-500/30">
-                        Interactive Web Instance
-                    </span>
+                  </div>
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    SLA Compliance Boost (+12%)
+                  </h4>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Performed regression analysis on 100K+ operational logs at
+                      QDIGI Services to pinpoint resolution bottlenecks,
+                      boosting team SLA compliance by 12%.
+                    </p>
+                  </div>
                 </div>
-                
-                <div class="relative w-full bg-black/20" style="height: 80vh; min-height: 750px;">
-                    <iframe 
-                        width="100%" 
-                        height="100%" 
-                        frameborder="0" 
-                        scrolling="no" 
-                        src="https://1drv.ms/x/c/ee5137b733c9ba7f/IQQK62nse4U6Sr7Ya3rHcwAVAd6kR_Axd-MWKZuiQbeIV4c?em=2&ActiveCell='Dashboard'!C3&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True">
-                    </iframe>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <div class="testimonials-avatar-box">
+                    <div class="testimonial-icon-circle">
+                      <i class="fa-solid fa-chart-line"></i>
+                    </div>
+                  </div>
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Conversion Rate Growth (+10%)
+                  </h4>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Analyzed 18,000+ applicant dataset at UNIVO Education,
+                      driving conversion rates from 18% to 28% through cohort
+                      analysis presented to C-suite leaders.
+                    </p>
+                  </div>
                 </div>
-                <div class="p-4 bg-white/5 text-center">
-                    <p class="text-xs text-gray-500 italic">Built with Power Query & VBA macros to transform 10K+ daily raw call logs.</p>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <div class="testimonials-avatar-box">
+                    <div class="testimonial-icon-circle">
+                      <i class="fa-solid fa-clock"></i>
+                    </div>
+                  </div>
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    10+ Hours Saved Weekly
+                  </h4>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Built automated weekly reporting macros using Excel VBA &
+                      Power Query, eliminating tedious manual copy-pasting for
+                      management.
+                    </p>
+                  </div>
                 </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- #RESUME SECTION -->
+        <article class="resume" data-page="resume">
+          <header>
+            <div class="header-with-action">
+              <h2 class="h2 article-title">Resume</h2>
+              <a
+                href="https://pranjal098.github.io/Pranjal.Data/Pranjal_Resume.pdf"
+                target="_blank"
+                class="download-cv-btn"
+              >
+                <i class="fa-solid fa-download"></i> Download Resume
+              </a>
+            </div>
+          </header>
+
+          <!-- Experience Timeline -->
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <i class="fa-solid fa-briefcase"></i>
+              </div>
+              <h3 class="h3">Work Experience</h3>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
-                <div class="glass p-8 rounded-2xl border border-white/5 flex flex-col justify-between transition hover:border-green-500/50">
-                    <div>
-                        <div class="text-xs text-green-400 font-mono mb-2 uppercase">Python • MySQL • Pandas</div>
-                        <h3 class="text-xl font-bold mb-4">E-Commerce EDA</h3>
-                        <p class="text-gray-400 text-sm mb-6">Analyzed 100K+ transaction records to identify revenue optimization via RFM analysis.</p>
-                    </div>
-                    <a href="https://github.com/Pranjal098/Pranjal_Portfolio" target="_blank" class="text-green-400 text-sm font-bold hover:underline">View Source Code →</a>
-                </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">MIS Executive</h4>
+                <span class="timeline-company"
+                  ><i class="fa-solid fa-building"></i> QDIGI Services | Data
+                  Analytics & BI</span
+                >
+                <span class="timeline-period"
+                  ><i class="fa-regular fa-calendar"></i> March 2025 – Dec 2025
+                  | Noida, U.P.</span
+                >
+                <ul class="timeline-bullets">
+                  <li>
+                    Constructed 10+ interactive Power BI dashboards tracking
+                    operational KPIs and SLA metrics for 50+ stakeholders.
+                  </li>
+                  <li>
+                    Automated ETL workflows using SQL and VBA, reducing manual
+                    reporting effort by 30% and improving data accuracy to 99%.
+                  </li>
+                  <li>
+                    Identified operational bottlenecks using regression analysis
+                    on 100K+ records, improving SLA compliance by 12%.
+                  </li>
+                  <li>
+                    Engineered real-time SLA alerting system via Power Automate,
+                    reducing incident response time by 40%.
+                  </li>
+                </ul>
+              </li>
 
-                <div class="glass p-8 rounded-2xl border border-white/5 flex flex-col justify-between transition hover:border-blue-500/50">
-                    <div>
-                        <div class="text-xs text-blue-400 font-mono mb-2 uppercase">Academic Background</div>
-                        <h3 class="text-xl font-bold mb-4">B.Tech Mechanical Engineering</h3>
-                        <p class="text-gray-400 text-sm mb-6">Rajiv Gandhi Proudyogiki Vishwavidyalaya | CGPA: 7.72/10.</p>
-                    </div>
-                    <span class="text-blue-400 text-sm font-bold">2017 – 2021</span>
-                </div>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Documentation Executive (Analytics Focus)
+                </h4>
+                <span class="timeline-company"
+                  ><i class="fa-solid fa-building"></i> UNIVO Education | Data
+                  Analytics</span
+                >
+                <span class="timeline-period"
+                  ><i class="fa-regular fa-calendar"></i> August 2023 – November
+                  2024 | Noida, U.P.</span
+                >
+                <ul class="timeline-bullets">
+                  <li>
+                    Analyzed 18,000+ applicant records, increasing conversion
+                    rates from 18% to 28% through targeted cohort analysis.
+                  </li>
+                  <li>
+                    Developed 5+ Power BI dashboards tracking 40% YoY growth to
+                    inform executive recruitment strategies.
+                  </li>
+                  <li>
+                    Contributed to 15% application growth by presenting
+                    predictive analytics models to C-level leadership.
+                  </li>
+                  <li>
+                    Deployed automated weekly reporting via VBA, saving 10+
+                    hours per week in manual compilation.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+          </section>
+
+          <!-- Education Timeline -->
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </div>
+              <h3 class="h3">Education</h3>
             </div>
-        </div>
-    </section>
 
-    <section id="skills" class="py-20">
-        <div class="max-w-7xl mx-auto px-6">
-            <h2 class="text-3xl font-bold mb-12 flex items-center">
-                <span class="w-12 h-1 bg-green-500 mr-4"></span> Technical Toolkit
-            </h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="glass p-6 rounded-xl border-l-4 border-green-500">
-                    <i class="fas fa-database text-green-400 mb-4 text-2xl"></i>
-                    <h4 class="font-bold mb-2 uppercase text-xs tracking-widest text-gray-400">SQL & Databases</h4>
-                    <p class="text-sm">Advanced window functions, CTEs, subqueries, and MySQL.</p>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  B.Tech in Mechanical Engineering
+                </h4>
+                <span class="timeline-company"
+                  ><i class="fa-solid fa-university"></i> Rajiv Gandhi
+                  Proudyogiki Vishwavidyalaya (RGPV)</span
+                >
+                <span class="timeline-period"
+                  ><i class="fa-regular fa-star"></i> CGPA: 7.72 / 10.0</span
+                >
+                <p class="timeline-text">
+                  Strong foundation in analytical problem solving,
+                  thermodynamics, quantitative modeling, and statistical
+                  techniques.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <!-- Skills Progress -->
+          <section class="skill">
+            <h3 class="h3 skills-title">Technical Toolkit & Proficiency</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">
+                    SQL & Database Management (MySQL, Window Functions, CTEs)
+                  </h5>
+                  <data value="92">92%</data>
                 </div>
-                <div class="glass p-6 rounded-xl border-l-4 border-blue-500">
-                    <i class="fas fa-chart-pie text-blue-400 mb-4 text-2xl"></i>
-                    <h4 class="font-bold mb-2 uppercase text-xs tracking-widest text-gray-400">Analytics & Viz</h4>
-                    <p class="text-sm">Power BI (DAX, Power Query) and Advanced Excel (VBA, Macros).</p>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 92%"></div>
                 </div>
-                <div class="glass p-6 rounded-xl border-l-4 border-yellow-500">
-                    <i class="fab fa-python text-yellow-400 mb-4 text-2xl"></i>
-                    <h4 class="font-bold mb-2 uppercase text-xs tracking-widest text-gray-400">Programming</h4>
-                    <p class="text-sm">Python (Pandas, NumPy, Matplotlib) and Statistical Modeling.</p>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">
+                    Power BI & DAX (Power Query, KPI Modeling, SLA Tracking)
+                  </h5>
+                  <data value="90">90%</data>
                 </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">
+                    Advanced Excel & VBA (Macros, Automated ETL, Pivot Tables)
+                  </h5>
+                  <data value="95">95%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 95%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">
+                    Python for Analytics (Pandas, NumPy, Matplotlib, Seaborn)
+                  </h5>
+                  <data value="85">85%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">
+                    Process Automation (Power Automate, SLA Triggers)
+                  </h5>
+                  <data value="80">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+            </ul>
+
+            <div class="skill-badges-container">
+              <span class="skill-tag"
+                ><i class="fa-solid fa-code"></i> MySQL</span
+              >
+              <span class="skill-tag"
+                ><i class="fa-solid fa-table-cells"></i> DAX</span
+              >
+              <span class="skill-tag"
+                ><i class="fa-solid fa-filter"></i> Power Query</span
+              >
+              <span class="skill-tag"
+                ><i class="fa-solid fa-terminal"></i> VBA Macros</span
+              >
+              <span class="skill-tag"
+                ><i class="fa-brands fa-python"></i> Pandas</span
+              >
+              <span class="skill-tag"
+                ><i class="fa-solid fa-chart-simple"></i> EDA</span
+              >
+              <span class="skill-tag"
+                ><i class="fa-solid fa-cubes"></i> Cohort Analysis</span
+              >
+              <span class="skill-tag"
+                ><i class="fa-solid fa-bolt"></i> Power Automate</span
+              >
+              <span class="skill-tag"
+                ><i class="fa-brands fa-git-alt"></i> Git & GitHub</span
+              >
             </div>
+          </section>
+        </article>
+
+        <!-- #PORTFOLIO SECTION -->
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio & Projects</h2>
+          </header>
+
+          <section class="projects">
+            <!-- Filter Buttons Desktop -->
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn="all">All</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn="powerbi">Power BI & Viz</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn="python">Python & EDA</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn="automation">Automation & Tools</button>
+              </li>
+            </ul>
+
+            <!-- Filter Select Mobile -->
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-select-value>
+                  Select Category
+                </div>
+                <div class="select-icon">
+                  <i class="fa-solid fa-chevron-down"></i>
+                </div>
+              </button>
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item="all">All</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item="powerbi">Power BI & Viz</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item="python">Python & EDA</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item="automation">
+                    Automation & Tools
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Project Grid -->
+            <ul class="project-list">
+              <!-- Project 1 -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="powerbi"
+                data-project-id="project1"
+              >
+                <div class="project-card">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <i class="fa-regular fa-eye"></i>
+                    </div>
+                    <div class="project-preview-mockup powerbi-gradient">
+                      <i class="fa-solid fa-chart-pie mockup-icon"></i>
+                      <span class="mockup-tag">Power BI</span>
+                    </div>
+                  </figure>
+
+                  <h3 class="project-title">Agent Task Tracker Dashboard</h3>
+                  <p class="project-category">Power BI & Viz</p>
+                  <p class="project-desc">
+                    Tracking 15+ KPIs for 50+ agents in real-time. Built with
+                    Power Query & VBA macros to transform 10K+ daily raw logs.
+                  </p>
+                </div>
+              </li>
+
+              <!-- Project 2 -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="python"
+                data-project-id="project2"
+              >
+                <div class="project-card">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <i class="fa-regular fa-eye"></i>
+                    </div>
+                    <div class="project-preview-mockup python-gradient">
+                      <i class="fa-brands fa-python mockup-icon"></i>
+                      <span class="mockup-tag">Python / SQL</span>
+                    </div>
+                  </figure>
+
+                  <h3 class="project-title">E-Commerce Revenue EDA & RFM</h3>
+                  <p class="project-category">Python & EDA</p>
+                  <p class="project-desc">
+                    Analyzed 100K+ transaction records to identify high-value
+                    customer segments and revenue optimization strategies.
+                  </p>
+                </div>
+              </li>
+
+              <!-- Project 3 -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="automation"
+                data-project-id="project3"
+              >
+                <div class="project-card">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <i class="fa-regular fa-eye"></i>
+                    </div>
+                    <div class="project-preview-mockup automation-gradient">
+                      <i class="fa-solid fa-video mockup-icon"></i>
+                      <span class="mockup-tag">Automation</span>
+                    </div>
+                  </figure>
+
+                  <h3 class="project-title">Excel Shorts Studio</h3>
+                  <p class="project-category">Automation & Tools</p>
+                  <p class="project-desc">
+                    Automated 9:16 vertical Excel tips engine with animated
+                    canvas render, synthesized audio, and YouTube metadata.
+                  </p>
+                </div>
+              </li>
+
+              <!-- Project 4 -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="powerbi"
+                data-project-id="project4"
+              >
+                <div class="project-card">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <i class="fa-regular fa-eye"></i>
+                    </div>
+                    <div class="project-preview-mockup edusphere-gradient">
+                      <i class="fa-solid fa-laptop-code mockup-icon"></i>
+                      <span class="mockup-tag">Web App / Analytics</span>
+                    </div>
+                  </figure>
+
+                  <h3 class="project-title">EduSphere Course Comparator</h3>
+                  <p class="project-category">Power BI & Viz</p>
+                  <p class="project-desc">
+                    Widescreen desktop platform for comparing tech courses,
+                    tuition ROI, and curriculum depth across ed-tech providers.
+                  </p>
+                </div>
+              </li>
+
+              <!-- Project 5 -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="automation"
+                data-project-id="project5"
+              >
+                <div class="project-card">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <i class="fa-regular fa-eye"></i>
+                    </div>
+                    <div class="project-preview-mockup alert-gradient">
+                      <i class="fa-solid fa-bolt mockup-icon"></i>
+                      <span class="mockup-tag">SQL & Automate</span>
+                    </div>
+                  </figure>
+
+                  <h3 class="project-title">Real-Time SLA Alert Engine</h3>
+                  <p class="project-category">Automation & Tools</p>
+                  <p class="project-desc">
+                    SQL-driven automated alert system via Power Automate,
+                    reducing SLA incident resolution response time by 40%.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- #INSIGHTS / BLOG SECTION -->
+        <article class="insights" data-page="insights">
+          <header>
+            <h2 class="h2 article-title">Data Insights & Articles</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="#" class="blog-card" data-blog-modal="blog1">
+                  <figure class="blog-banner-box">
+                    <div class="blog-banner-placeholder sql-banner">
+                      <i class="fa-solid fa-database"></i>
+                    </div>
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">SQL Optimization</p>
+                      <span class="dot"></span>
+                      <time datetime="2026-02-15">Feb 15, 2026</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Mastering SQL Window Functions for BI
+                    </h3>
+
+                    <p class="blog-text">
+                      How `ROW_NUMBER()`, `RANK()`, and `SUM() OVER()` can
+                      simplify multi-stage aggregation queries without complex
+                      subjoins.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#" class="blog-card" data-blog-modal="blog2">
+                  <figure class="blog-banner-box">
+                    <div class="blog-banner-placeholder dax-banner">
+                      <i class="fa-solid fa-chart-column"></i>
+                    </div>
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Power BI</p>
+                      <span class="dot"></span>
+                      <time datetime="2026-01-28">Jan 28, 2026</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      5 Best Practices for Lightning-Fast DAX
+                    </h3>
+
+                    <p class="blog-text">
+                      Practical techniques to optimize measure performance,
+                      manage row context vs filter context, and avoid
+                      high-cardinality bottlenecks.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#" class="blog-card" data-blog-modal="blog3">
+                  <figure class="blog-banner-box">
+                    <div class="blog-banner-placeholder vba-banner">
+                      <i class="fa-solid fa-file-excel"></i>
+                    </div>
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Excel & Automation</p>
+                      <span class="dot"></span>
+                      <time datetime="2025-12-10">Dec 10, 2025</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Automating 10,000+ Daily Log Ingestions with VBA
+                    </h3>
+
+                    <p class="blog-text">
+                      A step-by-step blueprint for building resilient VBA Macros
+                      with error trapping to clean raw call logs in under 15
+                      seconds.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- #CONTACT SECTION -->
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <div class="location-card">
+              <div class="location-icon">
+                <i class="fa-solid fa-map-location-dot"></i>
+              </div>
+              <div class="location-details">
+                <h4>Based in Noida, Uttar Pradesh, India</h4>
+                <p>
+                  Open for Remote Data Analytics roles & High-Impact Consulting
+                  Opportunities
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Get in Touch</h3>
+
+            <form action="#" class="form" data-form id="contact-form">
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full Name"
+                  required
+                  data-form-input
+                />
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email Address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <input
+                type="text"
+                name="subject"
+                class="form-input"
+                placeholder="Subject / Topic"
+                required
+                data-form-input
+                style="margin-bottom: 25px"
+              />
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" data-form-btn>
+                <i class="fa-solid fa-paper-plane"></i>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!-- #PROJECT / CONTENT MODAL -->
+    <div class="modal-container" data-modal-container>
+      <div class="overlay" data-overlay></div>
+
+      <section class="testimonials-modal">
+        <button class="modal-close-btn" data-modal-close-btn>
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <div class="modal-content-box">
+          <h3 class="h3 modal-title" id="modal-title">Project Title</h3>
+          <p class="modal-category" id="modal-category">Category</p>
+
+          <div class="modal-banner" id="modal-banner">
+            <div class="modal-icon-badge">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+          </div>
+
+          <div class="modal-text" id="modal-text">
+            <p>Project details will appear here.</p>
+          </div>
+
+          <div class="modal-tech-stack" id="modal-tech">
+            <!-- Tech badges injected via JS -->
+          </div>
+
+          <div class="modal-actions" id="modal-actions">
+            <a
+              href="https://github.com/Pranjal098"
+              target="_blank"
+              class="btn-modal-link"
+              id="modal-github"
+            >
+              <i class="fa-brands fa-github"></i> View GitHub Repo
+            </a>
+          </div>
         </div>
-    </section>
+      </section>
+    </div>
 
-    <footer class="py-10 text-center text-gray-600 text-xs uppercase tracking-widest border-t border-white/5">
-        &copy; 2026 PRANJAL JAISWAL • MIS EXECUTIVE & DATA ANALYST
-    </footer>
+    <!-- Toast Notification Container -->
+    <div class="toast" id="toast-notification">
+      <i class="fa-solid fa-circle-check"></i>
+      <span id="toast-message">Message sent successfully!</span>
+    </div>
 
-    <script>
-        document.getElementById('download-btn').addEventListener('click', function() {
-            var templateParams = {
-                to_name: 'Pranjal',
-                message: 'A recruiter just clicked the resume download link on your portfolio!'
-            };
-
-            emailjs.send('service_lw7rc45', 'template_88mrt7g', templateParams)
-                .then(function(response) {
-                    console.log('SUCCESS!', response.status, response.text);
-                }, function(error) {
-                    console.log('FAILED...', error);
-                });
-        });
-    </script>
-</body>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+  </body>
 </html>
