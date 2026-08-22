@@ -1360,6 +1360,55 @@ textarea.form-input {
   margin-bottom: 15px;
 }
 
+/* Live Dashboard Embed */
+.modal-dashboard-embed {
+  background: var(--onyx);
+  border: 1px solid var(--jet);
+  border-radius: 14px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.embed-header {
+  background: var(--eerie-black-2);
+  padding: 10px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  color: var(--white-2);
+  border-bottom: 1px solid var(--jet);
+}
+
+.embed-header .live-pill {
+  font-size: 10px;
+  color: #4cd964;
+  background: rgba(76, 217, 100, 0.1);
+  padding: 2px 8px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.embed-header .live-pill i {
+  font-size: 6px;
+  animation: blink 1.5s infinite;
+}
+
+.embed-frame-wrapper {
+  width: 100%;
+  height: 260px;
+  position: relative;
+  background: #121212;
+}
+
+.embed-frame-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
 .modal-tech-stack {
   display: flex;
   flex-wrap: wrap;

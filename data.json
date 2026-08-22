@@ -1,0 +1,271 @@
+{
+  "profile": {
+    "name": "Pranjal Jaiswal",
+    "title": "MIS Executive & Data Analyst",
+    "status": "Available for Data Projects",
+    "tagline": "Turning Raw Data into Actionable Strategy.",
+    "email": "pjaiswal0605@gmail.com",
+    "location": "Noida, Uttar Pradesh, India",
+    "education": "B.Tech Mechanical (RGPV)",
+    "resumeUrl": "https://pranjal098.github.io/Pranjal.Data/Pranjal_Resume.pdf",
+    "avatar": "assets/images/avatar.png",
+    "socials": [
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/Pranjal098",
+        "icon": "fa-brands fa-github"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://linkedin.com/in/pranjal-jaiswal-",
+        "icon": "fa-brands fa-linkedin-in"
+      },
+      {
+        "platform": "YouTube",
+        "url": "https://youtube.com/@PranjalData",
+        "icon": "fa-brands fa-youtube"
+      },
+      {
+        "platform": "Email",
+        "url": "mailto:pjaiswal0605@gmail.com",
+        "icon": "fa-solid fa-paper-plane"
+      }
+    ]
+  },
+  "stats": [
+    { "number": "2+", "label": "Years Exp.", "icon": "fa-solid fa-briefcase" },
+    {
+      "number": "15+",
+      "label": "Power BI Dashboards",
+      "icon": "fa-solid fa-chart-pie"
+    },
+    {
+      "number": "100K+",
+      "label": "Records Analyzed",
+      "icon": "fa-solid fa-database"
+    },
+    { "number": "30%", "label": "ETL Time Saved", "icon": "fa-solid fa-bolt" }
+  ],
+  "about": {
+    "paragraphs": [
+      "I am an <strong>MIS Executive & Data Analyst</strong> with 2+ years of experience transforming complex, multi-source datasets into high-impact operational insights. My expertise spans <strong>SQL, Power BI (DAX, Power Query), Python (Pandas/NumPy), and Advanced Excel with VBA</strong>.",
+      "Whether automating repetitive ETL workflows to save hundreds of manual hours, building real-time SLA monitoring dashboards for C-level leadership, or performing predictive cohort analysis to boost conversion rates, I focus on driving tangible business metrics."
+    ],
+    "services": [
+      {
+        "title": "Data Analytics & Power BI",
+        "description": "Design interactive executive dashboards with DAX & Power Query, tracking operational KPIs, SLA compliance, and business growth.",
+        "icon": "fa-solid fa-chart-column"
+      },
+      {
+        "title": "ETL & Automated Pipelines",
+        "description": "Automate manual compilation using SQL queries, VBA macros, and Power Automate—reducing reporting effort by 30% and improving accuracy to 99%.",
+        "icon": "fa-solid fa-gears"
+      },
+      {
+        "title": "Predictive & Cohort Analysis",
+        "description": "Analyze user records and sales channels, increasing applicant conversion rates from 18% to 28% through data-driven funnel optimization.",
+        "icon": "fa-solid fa-magnifying-glass-chart"
+      },
+      {
+        "title": "Real-Time Alerting Systems",
+        "description": "Engineer automated alerting triggers via Power Automate, reducing operational SLA incident response times by 40%.",
+        "icon": "fa-solid fa-bell"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "SLA Compliance Boost (+12%)",
+        "description": "Performed regression analysis on 100K+ operational logs at QDIGI Services to pinpoint resolution bottlenecks, boosting team SLA compliance by 12%.",
+        "icon": "fa-solid fa-trophy"
+      },
+      {
+        "title": "Conversion Rate Growth (+10%)",
+        "description": "Analyzed 18,000+ applicant dataset at UNIVO Education, driving conversion rates from 18% to 28% through cohort analysis presented to C-suite leaders.",
+        "icon": "fa-solid fa-chart-line"
+      },
+      {
+        "title": "10+ Hours Saved Weekly",
+        "description": "Built automated weekly reporting macros using Excel VBA & Power Query, eliminating tedious manual copy-pasting for management.",
+        "icon": "fa-solid fa-clock"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "role": "MIS Executive",
+      "company": "QDIGI Services | Data Analytics & BI",
+      "period": "March 2025 – Dec 2025 | Noida, U.P.",
+      "bullets": [
+        "Constructed 10+ interactive Power BI dashboards tracking operational KPIs and SLA metrics for 50+ stakeholders.",
+        "Automated ETL workflows using SQL and VBA, reducing manual reporting effort by 30% and improving data accuracy to 99%.",
+        "Identified operational bottlenecks using regression analysis on 100K+ records, improving SLA compliance by 12%.",
+        "Engineered real-time SLA alerting system via Power Automate, reducing incident response time by 40%."
+      ]
+    },
+    {
+      "role": "Documentation Executive (Analytics Focus)",
+      "company": "UNIVO Education | Data Analytics",
+      "period": "August 2023 – November 2024 | Noida, U.P.",
+      "bullets": [
+        "Analyzed 18,000+ applicant records, increasing conversion rates from 18% to 28% through targeted cohort analysis.",
+        "Developed 5+ Power BI dashboards tracking 40% YoY growth to inform executive recruitment strategies.",
+        "Contributed to 15% application growth by presenting predictive analytics models to C-level leadership.",
+        "Deployed automated weekly reporting via VBA, saving 10+ hours per week in manual compilation."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Mechanical Engineering",
+      "institution": "Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV)",
+      "score": "CGPA: 7.72 / 10.0",
+      "details": "Strong foundation in analytical problem solving, thermodynamics, quantitative modeling, and statistical techniques."
+    }
+  ],
+  "skills": [
+    {
+      "name": "SQL & Database Management (MySQL, Window Functions, CTEs)",
+      "level": 92
+    },
+    {
+      "name": "Power BI & DAX (Power Query, KPI Modeling, SLA Tracking)",
+      "level": 90
+    },
+    {
+      "name": "Advanced Excel & VBA (Macros, Automated ETL, Pivot Tables)",
+      "level": 95
+    },
+    {
+      "name": "Python for Analytics (Pandas, NumPy, Matplotlib, Seaborn)",
+      "level": 85
+    },
+    { "name": "Process Automation (Power Automate, SLA Triggers)", "level": 80 }
+  ],
+  "projects": [
+    {
+      "id": "project1",
+      "title": "Agent Task Tracker Dashboard",
+      "category": "powerbi",
+      "categoryLabel": "Power BI & Viz",
+      "description": "Tracking 15+ KPIs for 50+ agents in real-time. Built with Power Query & VBA macros to transform 10K+ daily raw logs.",
+      "fullDescription": "Real-time performance tracking dashboard monitoring 15+ operational KPIs across 50+ service agents. Engine transforms 10,000+ daily raw call logs into clean metrics using Power Query ETL and custom VBA macros.",
+      "techStack": [
+        "Power BI",
+        "DAX",
+        "Power Query",
+        "VBA Macros",
+        "Advanced Excel"
+      ],
+      "githubUrl": "https://github.com/Pranjal098/Pranjal_Portfolio",
+      "demoUrl": "https://pranjal098.github.io/Pranjal.Data/",
+      "embedUrl": "https://app.powerbi.com/view?r=eyJrIjoiWTJGYU1tUTt...sample_powerbi_embed_link",
+      "iconClass": "fa-solid fa-chart-pie",
+      "gradientClass": "powerbi-gradient",
+      "mockupTag": "Power BI"
+    },
+    {
+      "id": "project2",
+      "title": "E-Commerce Revenue EDA & RFM",
+      "category": "python",
+      "categoryLabel": "Python & EDA",
+      "description": "Analyzed 100K+ transaction records to identify high-value customer segments and revenue optimization strategies.",
+      "fullDescription": "In-depth Exploratory Data Analysis on 100,000+ transactional records using Python (Pandas, Seaborn). Performed RFM (Recency, Frequency, Monetary) segmentation to identify high-value buyer cohorts and drive revenue optimization.",
+      "techStack": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Seaborn",
+        "SQL",
+        "RFM Segmentation"
+      ],
+      "githubUrl": "https://github.com/Pranjal098/Pranjal_Portfolio",
+      "demoUrl": "https://pranjal098.github.io/Pranjal.Data/",
+      "iconClass": "fa-brands fa-python",
+      "gradientClass": "python-gradient",
+      "mockupTag": "Python / SQL"
+    },
+    {
+      "id": "project3",
+      "title": "Excel Shorts Studio",
+      "category": "automation",
+      "categoryLabel": "Automation & Tools",
+      "description": "Automated 9:16 vertical Excel tips engine with animated canvas render, synthesized audio, and YouTube metadata.",
+      "fullDescription": "Automated browser-based content generation engine producing 9:16 vertical Excel tips for YouTube Shorts. Features animated spreadsheet canvas, synchronized text-to-speech audio, and automatic YouTube metadata generation.",
+      "techStack": [
+        "JavaScript",
+        "HTML5 Canvas",
+        "Web Audio API",
+        "CSS Animations",
+        "YouTube API"
+      ],
+      "githubUrl": "https://github.com/Pranjal098/Pranjal_Portfolio",
+      "demoUrl": "https://pranjal098.github.io/Pranjal.Data/",
+      "iconClass": "fa-solid fa-video",
+      "gradientClass": "automation-gradient",
+      "mockupTag": "Automation"
+    },
+    {
+      "id": "project4",
+      "title": "EduSphere Course Comparator",
+      "category": "powerbi",
+      "categoryLabel": "Power BI & Viz",
+      "description": "Widescreen desktop platform for comparing tech courses, tuition ROI, and curriculum depth across ed-tech providers.",
+      "fullDescription": "Desktop-first interactive web application for comparing tech courses, tuition fees, placement stats, and curriculum depth. Built with reactive UI state and custom CSS glassmorphism.",
+      "techStack": [
+        "HTML5",
+        "CSS3 Glassmorphism",
+        "JavaScript ES6+",
+        "Data Modeling"
+      ],
+      "githubUrl": "https://github.com/Pranjal098/Pranjal_Portfolio",
+      "demoUrl": "https://pranjal098.github.io/Pranjal.Data/",
+      "iconClass": "fa-solid fa-laptop-code",
+      "gradientClass": "edusphere-gradient",
+      "mockupTag": "Web App / Analytics"
+    },
+    {
+      "id": "project5",
+      "title": "Real-Time SLA Alert Engine",
+      "category": "automation",
+      "categoryLabel": "Automation & Tools",
+      "description": "SQL-driven automated alert system via Power Automate, reducing SLA incident resolution response time by 40%.",
+      "fullDescription": "SQL-backed automated alerting workflow engineered via Power Automate. Monitors database incident logs and broadcasts instant Slack/Teams alerts to management, cutting SLA incident resolution times by 40%.",
+      "techStack": ["SQL", "MySQL", "Power Automate", "VBA", "REST APIs"],
+      "githubUrl": "https://github.com/Pranjal098/Pranjal_Portfolio",
+      "demoUrl": "https://pranjal098.github.io/Pranjal.Data/",
+      "iconClass": "fa-solid fa-bolt",
+      "gradientClass": "alert-gradient",
+      "mockupTag": "SQL & Automate"
+    }
+  ],
+  "insights": [
+    {
+      "id": "blog1",
+      "title": "Mastering SQL Window Functions for BI",
+      "category": "SQL Optimization",
+      "date": "Feb 15, 2026",
+      "summary": "How ROW_NUMBER(), RANK(), and SUM() OVER() can simplify multi-stage aggregation queries without complex subjoins.",
+      "gradientClass": "sql-banner",
+      "iconClass": "fa-solid fa-database"
+    },
+    {
+      "id": "blog2",
+      "title": "5 Best Practices for Lightning-Fast DAX",
+      "category": "Power BI",
+      "date": "Jan 28, 2026",
+      "summary": "Practical techniques to optimize measure performance, manage row context vs filter context, and avoid high-cardinality bottlenecks.",
+      "gradientClass": "dax-banner",
+      "iconClass": "fa-solid fa-chart-column"
+    },
+    {
+      "id": "blog3",
+      "title": "Automating 10,000+ Daily Log Ingestions with VBA",
+      "category": "Excel & Automation",
+      "date": "Dec 10, 2025",
+      "summary": "A step-by-step blueprint for building resilient VBA Macros with error trapping to clean raw call logs in under 15 seconds.",
+      "gradientClass": "vba-banner",
+      "iconClass": "fa-solid fa-file-excel"
+    }
+  ]
+}
